@@ -1,0 +1,2659 @@
+[
+  {
+    "id": 0,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 1
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 1,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 2
+    },
+    "wonders": {
+      "mineral": 2,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 2,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 3
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 4,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 3,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 4
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 4,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 5
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 5,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 6
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": null
+  },
+  {
+    "id": 6,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 7
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 1
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 7,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 8
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": null
+  },
+  {
+    "id": 8,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 9
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 5,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 9,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 10
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "night"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 11
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "clue"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 12
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": true,
+    "quest": null
+  },
+  {
+    "id": 12,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 13
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_mineral"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 14
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "night"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 15
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_animal"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 16
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_animal"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 17
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 2,
+        "plant": 0
+      },
+      "types": [
+        "wonders_mineral"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 18
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 10,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_all"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 19
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_plant"
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": true,
+      "duration": 20
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 1,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "night"
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": true,
+      "duration": 21
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 8,
+      "prerequisites": {
+        "mineral": 2,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 21,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": true,
+      "duration": 22
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "clue"
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": true,
+      "duration": 23
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 10,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_all"
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": true,
+      "duration": 24
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 1,
+        "plant": 0
+      },
+      "types": [
+        "night"
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": true,
+      "duration": 25
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_green",
+        "biome_yellow"
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": true,
+      "duration": 26
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_plant"
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": true,
+      "duration": 27
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_blue",
+        "biome_yellow"
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": true,
+      "duration": 28
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_animal"
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": true,
+      "duration": 29
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_plant"
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": true,
+      "duration": 30
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_mineral"
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": true,
+      "duration": 31
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_yellow",
+        "biome_red"
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": true,
+      "duration": 32
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 7,
+      "prerequisites": {
+        "mineral": 3,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 32,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": true,
+      "duration": 33
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_plant"
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": true,
+      "duration": 34
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 2,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_animal"
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": true,
+      "duration": 35
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 10,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_all"
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": true,
+      "duration": 36
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 4,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 2,
+        "plant": 0
+      },
+      "types": [
+        "wonders_plant"
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": true,
+      "duration": 37
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 1
+      },
+      "types": [
+        "night"
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": true,
+      "duration": 38
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 1,
+        "plant": 1
+      },
+      "types": [
+        "clue"
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": true,
+      "duration": 39
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": false,
+    "quest": {
+      "fame": 9,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 2,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 39,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": true,
+      "duration": 40
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 1,
+        "animal": 1,
+        "plant": 1
+      },
+      "types": [
+        "night"
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 41
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": false,
+    "quest": {
+      "fame": 4,
+      "prerequisites": {
+        "mineral": 2,
+        "animal": 1,
+        "plant": 0
+      },
+      "types": [
+        "night"
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 42
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 1,
+        "animal": 1,
+        "plant": 0
+      },
+      "types": [
+        "biome_green",
+        "biome_yellow"
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 43
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 10,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_all"
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 44
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 1,
+        "animal": 0,
+        "plant": 1
+      },
+      "types": [
+        "biome_blue",
+        "biome_yellow"
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 45
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 13,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 3,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 45,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 46
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 10,
+      "prerequisites": {
+        "mineral": 2,
+        "animal": 1,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 46,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 47
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 1,
+        "plant": 1
+      },
+      "types": [
+        "biome_yellow",
+        "biome_red"
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 48
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_mineral"
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 49
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 12,
+      "prerequisites": {
+        "mineral": 2,
+        "animal": 0,
+        "plant": 1
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 49,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 50
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 4,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 2
+      },
+      "types": [
+        "biome_green"
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 51
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 14,
+      "prerequisites": {
+        "mineral": 4,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 51,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 52
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 4,
+      "prerequisites": {
+        "mineral": 3,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_animal"
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 53
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 4,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 2
+      },
+      "types": [
+        "biome_red"
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 54
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 4,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 2
+      },
+      "types": [
+        "clue"
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 55
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 1,
+        "plant": 2
+      },
+      "types": [
+        "wonders_mineral"
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 56
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": false,
+    "quest": {
+      "fame": 4,
+      "prerequisites": {
+        "mineral": 1,
+        "animal": 2,
+        "plant": 0
+      },
+      "types": [
+        "biome_blue"
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "sanctuary": false,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 57
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 4,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 3
+      },
+      "types": [
+        "wonders_mineral"
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 58
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 3,
+        "plant": 0
+      },
+      "types": [
+        "clue"
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 59
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 1,
+        "animal": 3,
+        "plant": 0
+      },
+      "types": [
+        "biome_yellow",
+        "biome_red"
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 60
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 16,
+      "prerequisites": {
+        "mineral": 2,
+        "animal": 2,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 60,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 61
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": false,
+    "quest": {
+      "fame": 17,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 4,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 61,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 62
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 3
+      },
+      "types": [
+        "biome_blue",
+        "biome_yellow"
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 63
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 15,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 2,
+        "plant": 1
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 63,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 64
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 18,
+      "prerequisites": {
+        "mineral": 2,
+        "animal": 0,
+        "plant": 2
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 64,
+    "sanctuary": false,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 65
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 3,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 3
+      },
+      "types": [
+        "biome_green",
+        "biome_yellow"
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 66
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 20,
+      "prerequisites": {
+        "mineral": 4,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 66,
+    "sanctuary": false,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 67
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 19,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 2,
+        "plant": 2
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 67,
+    "sanctuary": false,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 68
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 24,
+      "prerequisites": {
+        "mineral": 5,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 68,
+    "sanctuary": true,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_green"
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "sanctuary": true,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_red"
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "sanctuary": true,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_blue"
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "sanctuary": true,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_yellow"
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_blue",
+        "biome_yellow"
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_green",
+        "biome_red"
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_yellow",
+        "biome_red"
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_green",
+        "biome_yellow"
+      ]
+    }
+  },
+  {
+    "id": 76,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_blue",
+        "biome_green"
+      ]
+    }
+  },
+  {
+    "id": 77,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_blue",
+        "biome_red"
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "sanctuary": true,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 79,
+    "sanctuary": true,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 80,
+    "sanctuary": true,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 81,
+    "sanctuary": true,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 82,
+    "sanctuary": true,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 83,
+    "sanctuary": true,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": null
+  },
+  {
+    "id": 84,
+    "sanctuary": true,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 85,
+    "sanctuary": true,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 86,
+    "sanctuary": true,
+    "biome": "red",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 87,
+    "sanctuary": true,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 88,
+    "sanctuary": true,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": null
+  },
+  {
+    "id": 89,
+    "sanctuary": true,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 4,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_all"
+      ]
+    }
+  },
+  {
+    "id": 90,
+    "sanctuary": true,
+    "biome": "yellow",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "clue"
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 5,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": []
+    }
+  },
+  {
+    "id": 92,
+    "sanctuary": true,
+    "biome": "blue",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": null
+  },
+  {
+    "id": 93,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": null
+  },
+  {
+    "id": 94,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": null
+  },
+  {
+    "id": 95,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": true,
+    "quest": null
+  },
+  {
+    "id": 96,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_plant"
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_mineral"
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_animal"
+      ]
+    }
+  },
+  {
+    "id": 99,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 2,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "clue"
+      ]
+    }
+  },
+  {
+    "id": 100,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 4,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "biome_all"
+      ]
+    }
+  },
+  {
+    "id": 101,
+    "sanctuary": true,
+    "biome": "green",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "night"
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "night"
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "clue"
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "clue"
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": true,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "clue"
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_mineral"
+      ]
+    }
+  },
+  {
+    "id": 107,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_animal"
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": false,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": false,
+    "quest": {
+      "fame": 1,
+      "prerequisites": {
+        "mineral": 0,
+        "animal": 0,
+        "plant": 0
+      },
+      "types": [
+        "wonders_plant"
+      ]
+    }
+  },
+  {
+    "id": 109,
+    "sanctuary": true,
+    "biome": "red",
+    "time": {
+      "night": true,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 110,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": true,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 1,
+      "animal": 0,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 111,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": true,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 1,
+      "plant": 0
+    },
+    "clue": false,
+    "quest": null
+  },
+  {
+    "id": 112,
+    "sanctuary": true,
+    "biome": "none",
+    "time": {
+      "night": true,
+      "duration": 0
+    },
+    "wonders": {
+      "mineral": 0,
+      "animal": 0,
+      "plant": 1
+    },
+    "clue": false,
+    "quest": null
+  }
+]
