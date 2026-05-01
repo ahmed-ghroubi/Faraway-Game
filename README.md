@@ -44,16 +44,42 @@ Important classes include the game scenes, services for player actions and game 
 
 ## Repository Structure
 
-```text
 Faraway-Game/
 │
+├── gradle/
+│   └── wrapper/
+│
 ├── src/
-│   └── main project source code
+│   ├── main/
+│   │   └── kotlin/
+│   │       ├── entity/
+│   │       ├── gui/
+│   │       ├── service/
+│   │       └── Main.kt
+│   │
+│   └── test/
+│       └── kotlin/
+│           └── service/
+│               ├── bot/
+│               ├── fileService/
+│               ├── gameService/
+│               ├── gameStateService/
+│               ├── network/
+│               ├── playerActionService/
+│               ├── AbstractRefreshingServiceTest.kt
+│               ├── ExampleTest.kt
+│               └── TestRefreshable.kt
 │
-├── docs/
-│   └── images/
-│       ├── gui-flow.jpg
-│       └── class-diagram.png
-│
-└── README.md
+├── ClassDiagram.png
+├── GUI.png
+├── HowToPlay.pdf
+├── README.md
+├── build.gradle.kts
+├── detektConfig.yml
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+└── settings.gradle.kts
+The `src/main/kotlin` directory contains the main application code, including the GUI, service, and entity layers.
 
+The `src/test/kotlin/service` directory contains unit tests for the service layer, including tests for bot logic, file handling, game services, game state management, networking, and player actions.
