@@ -14,7 +14,7 @@ The application architecture is organized into GUI, service, and entity layers.
 The following diagram shows the graphical user interface flow of the application.  
 It describes how the player moves between the main menu, game mode selection, online/offline overlays, waiting screen, game scene, game menu, result screen, and game table view.
 
-![GUI Flow](docs/images/GUI.png)
+![GUI Flow](https://github.com/ahmed-ghroubi/Faraway-Game/blob/main/GUI.png)
 
 ## Class Diagram
 
