@@ -22,7 +22,7 @@ The following class diagram shows the main structure of the application.
 It presents the relationship between the GUI layer, service layer, and entity layer.  
 Important classes include the game scenes, services for player actions and game state management, and core entities such as players, cards, regions, quests, and the Faraway game model.
 
-![Class Diagram](docs/images/class-diagram.png)
+![Class Diagram](https://github.com/ahmed-ghroubi/Faraway-Game/blob/main/ClassDiagram%20(3).png)
 
 ## Technologies Used
 
