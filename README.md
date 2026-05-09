@@ -1,86 +1,101 @@
-# Faraway Game
+# Card Staircase Game
 
-Faraway Game is a digital board game project developed with Java.  
-The game includes a graphical user interface, multiple game scenes, player actions, menus, saving/loading functionality, and game-state management.
+Card Staircase Game is a digital two-player card game implemented in Kotlin.  
+The project focuses on clean architecture, structured game logic, and an interactive graphical user interface.
+
+---
 
 ## Project Overview
 
-This project focuses on the implementation of the board game **Faraway** as a software application.  
-It includes different scenes such as the main menu, game scene, waiting scene, result scene, and game table scene.  
-The application architecture is organized into GUI, service, and entity layers.
+This project implements the card game "Card Staircase" as a software application.  
+Two players compete by strategically using their cards to gain points through different actions such as combining cards, destroying cards, drawing, and discarding.
+
+The objective of the game is to achieve the highest score by the end of the match.
+
+The application is designed with a clear separation of concerns, divided into:
+
+- GUI layer for user interaction  
+- Service layer for game logic  
+- Entity layer for core game objects  
+
+---
+
+## Game Concept
+
+- The game is played by two players  
+- Each player has a hand of cards  
+- A central "staircase" of cards forms the main playfield  
+- Players interact with the staircase to gain points  
+- The game ends when no more valid moves are possible or the staircase is cleared  
+
+Key mechanics include:
+
+- Combining cards to earn points  
+- Destroying cards at a cost  
+- Drawing new cards from the deck  
+- Discarding cards to manage the hand  
+
+---
 
 ## GUI Flow
 
 The following diagram shows the graphical user interface flow of the application.  
-It describes how the player moves between the main menu, game mode selection, online/offline overlays, waiting screen, game scene, game menu, result screen, and game table view.
+It illustrates how players navigate through the different scenes of the game.
 
-![GUI Flow](https://github.com/ahmed-ghroubi/Faraway-Game/blob/main/GUI.png)
+![GUI Flow](https://github.com/ahmed-ghroubi/Card-Game-Project/blob/main/GUI%20Flow.png)
+
+---
 
 ## Class Diagram
 
-The following class diagram shows the main structure of the application.  
-It presents the relationship between the GUI layer, service layer, and entity layer.  
-Important classes include the game scenes, services for player actions and game state management, and core entities such as players, cards, regions, quests, and the Faraway game model.
+The following class diagram illustrates the overall architecture of the application.  
+It shows the relationships between the GUI layer, service layer, and entity layer.
 
-![Class Diagram](https://github.com/ahmed-ghroubi/Faraway-Game/blob/main/ClassDiagram%20.png)
+![Class Diagram](https://github.com/ahmed-ghroubi/Card-Game-Project/blob/main/Card_Staircase_Class_Diagram.png)
+
+---
 
 ## Technologies Used
 
-- Java
+- Kotlin
 - JavaFX
 - Object-Oriented Programming
 - UML Class Diagrams
 - GUI Scene Management
 
+---
+
 ## Features
 
-- Main menu with game options
-- Online and offline game mode selection
-- Game scene with interactive board elements
-- Game menu with resume, save, and exit options
-- Result screen after game completion
-- Structured service layer for game logic
-- Entity layer for players, cards, regions, quests, and game state
+- Two-player gameplay  
+- Interactive graphical user interface  
+- Structured game-state management  
+- Multiple strategic actions  
+- Game history tracking  
+- Clear modular architecture  
+
+---
 
 ## Repository Structure
+
 ```text
-Faraway-Game/
-│
-├── gradle/
-│   └── wrapper/
+Card-Game-Project/
 │
 ├── src/
 │   ├── main/
-│   │   └── kotlin/
-│   │       ├── entity/
-│   │       ├── gui/
-│   │       ├── service/
-│   │       └── Main.kt
+│   │   ├── kotlin/
+│   │   │   ├── entity/
+│   │   │   ├── gui/
+│   │   │   ├── service/
+│   │   │   └── Main.kt
+│   │   │
+│   │   └── resources/
 │   │
 │   └── test/
 │       └── kotlin/
+│           ├── entity/
 │           └── service/
-│               ├── bot/
-│               ├── fileService/
-│               ├── gameService/
-│               ├── gameStateService/
-│               ├── network/
-│               ├── playerActionService/
-│               ├── AbstractRefreshingServiceTest.kt
-│               ├── ExampleTest.kt
-│               └── TestRefreshable.kt
 │
-├── ClassDiagram.png
-├── GUI.png
-├── HowToPlay.pdf
+├── Card_Staircase_Class_Diagram.png
+├── GUI Flow.png
 ├── README.md
-├── build.gradle.kts
-├── detektConfig.yml
-├── gradle.properties
-├── gradlew
-├── gradlew.bat
-└── settings.gradle.kts
-```
-The `src/main/kotlin` directory contains the main application code, including the GUI, service, and entity layers.
-
-The `src/test/kotlin/service` directory contains unit tests for the service layer, including tests for bot logic, file handling, game services, game state management, networking, and player actions.
